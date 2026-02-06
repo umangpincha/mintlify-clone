@@ -2,4 +2,5 @@
 mintlify clone
 
 Live Demo Link:
-mintllify-clone.netlify.app
+
+https://mintllify-clone.netlify.app
