@@ -485,3 +485,92 @@
     border-radius: 10px;
     width: 80vw;
   }
+
+  .customers {
+    margin-top: 20px;
+    text-align: center;
+    width: 100vw;         
+    margin-left: calc(-50vw + 50%);  
+  }
+
+  .customers-tag {
+    color: #1fa971;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+  
+  .customers h2 {
+    margin: 14px 0;
+    font-size: 42px;
+  }
+  
+  .customers-sub {
+    color: #aaa;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  
+  .customers-row {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 0 40px;
+  }
+    
+  .customer-card {
+    min-width: 280px;
+    text-align: left;
+  }
+  
+  .customer-img {
+    height: 180px;
+    border-radius: 18px;
+    background: linear-gradient(135deg,#0b4b4b,#001);
+    margin-bottom: 16px;
+  }
+  
+  .customer-img.dark {
+    background: linear-gradient(135deg,#333,#000);
+  }
+  
+  .customer-img.green {
+    background: linear-gradient(135deg,#00ff9d,#008060);
+  }
+  
+  .customer-img.purple {
+    background: linear-gradient(135deg,#4b3b8f,#2b145c);
+  }
+  
+  .customer-text {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .read {
+    display: inline-block;
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 14px;
+  }
+    
+  .customer-arrows {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .customer-arrows span {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
