@@ -466,7 +466,6 @@
     line-height: 1.6;
   }
   
-  /* fake icon */
   
   .enterprise-icon {
     width: 36px;
@@ -617,7 +616,6 @@
     cursor: pointer;
   }
   
-  /* Bottom blocks */
   
   .cta-bottom {
     margin-top: 80px;
@@ -656,4 +654,79 @@
     width: 1px;
     height: 120px;
     background: #222;
+  }
+
+  .site-footer {
+    padding: 60px 80px;
+  }
+  
+  .site-footer hr {
+    border: none;
+    height: 1px;
+    background: #1a1a1a;
+    margin: 40px 0;
+  }
+  
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .footer-socials span {
+    margin-left: 16px;
+    color: #888;
+  }
+  
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 60px;
+  }
+  
+  .footer-grid h4 {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-grid p {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  
+  
+  .footer-security {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .footer-security span {
+    border: 1px solid #333;
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+  
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+  }
+  
+  .status {
+    color: #1fa971;
+  }
+  
+  .footer-actions span {
+    margin-left: 10px;
   }
