@@ -524,24 +524,33 @@
     min-width: 280px;
     text-align: left;
   }
-  
+
   .customer-img {
     height: 180px;
     border-radius: 18px;
     background: linear-gradient(135deg,#0b4b4b,#001);
     margin-bottom: 16px;
+    background-image: url('./Images/pexels-hiteshchoudhary-18264705.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .customer-img.dark {
-    background: linear-gradient(135deg,#333,#000);
+    background-image: url('./Images/pexels-hiteshchoudhary-18264716.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .customer-img.green {
-    background: linear-gradient(135deg,#00ff9d,#008060);
+    background-image: url('./Images/pexels-hiteshchoudhary-18681382.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .customer-img.purple {
-    background: linear-gradient(135deg,#4b3b8f,#2b145c);
+    background-image: url('./Images/pexels-hiteshchoudhary-18681382.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .customer-text {
